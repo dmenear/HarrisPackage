@@ -5,3 +5,13 @@ body{
 #homeHeader{
     color: #000;
 }
+
+.homecard{
+    margin-bottom: 2%;
+}
+
+.homecard:hover{
+    cursor: pointer;
+}
+
+    
