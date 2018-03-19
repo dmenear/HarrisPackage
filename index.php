@@ -50,7 +50,7 @@
         </div>
         <div class="col-lg-4 text-center">
             <div class="card homecard">
-                <div class="card-header" onclick="location.href = 'contact.htm';">
+                <div class="card-header" onclick="location.href = 'contact/';">
                     <h4>Contact Us</h4>
                     <img class="rounded-circle" style="width: 70%;" src="images/samplecontact.jpeg" alt="Contact Us">
                 </div>
@@ -65,7 +65,7 @@
         </div>
         <div class="col-lg-4 text-center">
             <div class="card homecard">
-                <div class="card-header" onclick="location.href = 'about.htm';">
+                <div class="card-header" onclick="location.href = 'about/';">
                     <h4>About Us</h4>
                     <img class="rounded-circle" style="width: 70%;" src="images/sampleabout.jpeg" alt="About Us">
                 </div>
