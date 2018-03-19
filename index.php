@@ -8,7 +8,7 @@
 
 <?php include("incl/nav.php"); ?>
 
-<div id="homeHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="background: url('images/sample.png') center; background-size: cover; padding-right: 15px; padding-left: 15px;">
+<div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="background: url('images/sample.png') center; background-size: cover; padding-right: 15px; padding-left: 15px;">
     <div class="row">
         <div class="col-12 h3">Welcome to Catered Cocktails of Georgia!</div>
     </div>

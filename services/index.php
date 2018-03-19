@@ -18,7 +18,7 @@
     }
 </script>
     
-<div id="homeHeader" class="jumbotron jumbotron-fluid container-fluid text-center">
+<div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center">
     <div class="row">
         <div class="col-12 h3">Bar Setups / Services</div>
     </div>
@@ -41,7 +41,7 @@
     </div>
 </div>
     
-<div class="container-fluid">
+<div class="container-fluid" style="padding-left: 5%; padding-right: 5%;">
     <div class="row">
         <div class="col-xl-6 col-lg-12">
             <div class="card servicescard">
