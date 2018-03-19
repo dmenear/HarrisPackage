@@ -1,49 +1,16 @@
  <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Catered Cocktails of GA</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bs/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="jquery/jquery-3.3.1.min.js"></script>
-  <script src="bs/js/bootstrap.min.js"></script>
-</head>
+<?php
+    $pageID = "home";
+    include("incl/head.php");
+?>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
-    <a class="navbar-brand" href="#" style="font-family: 'Kalam';"><i><b>Catered Cocktails of GA</b></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navToggler" aria-controls="navToggler"
-            aria-expanded="false" aria-label="Toggle Navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navToggler">
-        <ul class="navbar-nav px-3">
-            <li class="nav-item active px-3">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">Bar Setups / Services</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">FAQ</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<?php include("incl/nav.php"); ?>
 
 <div id="homeHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="background: url('images/sample.png') center; background-size: cover; padding-right: 15px; padding-left: 15px;">
     <div class="row">
-        <div class="col-12 h3">Welcome to Catered Cocktails of GA!</div>
+        <div class="col-12 h3">Welcome to Catered Cocktails of Georgia!</div>
     </div>
     <div class="row">
         <div class="col-2"></div>
@@ -67,7 +34,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 text-center">
-            <div class="card homecard" onclick="location.href = 'services.htm';">
+            <div class="card homecard" onclick="location.href = 'services/';">
                 <div class="card-header">
                     <h4>Bar Setups & Services</h4>
                     <img class="rounded-circle" style="width: 70%;" src="images/samplebar.jpg" alt="Bar Setups & Services">
@@ -113,27 +80,8 @@
         </div>
     </div>
 </div>
-<br><br>
-<footer class="footer" style="margin-bottom: 2%;">
-    <div class="container text-muted text-center">
-        <div class="row text-center">
-            <div class="col-2"></div>
-            <div class="col-3">
-                <a href="http://www.facebook.com"><img src="images/fb.png" height="50" alt="Facebook"></a>
-            </div>
-            <div class="col-2">
-                <a href="http://www.twitter.com"><img src="images/tw.png" height="50" alt="Twitter"></a>
-            </div>
-            <div class="col-3">
-                <a href="http://www.instagram.com"><img src="images/in.png" height="50" alt="Instagram"></a>
-            </div>
-            <div class="col-2"></div>
-        </div>
-        <br><hr>
-        This website was created by David Menear for Catered Cocktails of GA.<br><br>
-        <a href="#">Privacy Policy</a>
-    </div>
-</footer>
+    
+<?php include("incl/footer.php"); ?>
 
 </body>
 </html> 
