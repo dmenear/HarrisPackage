@@ -8,7 +8,7 @@
 
 <?php include("../incl/nav.php"); ?>
 
-    <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center">
+    <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="padding-right: 15px; padding-left: 15px;">
         <div class="row">
             <div class="col-12 h3">Frequently Asked Questions</div>
         </div>

@@ -4,8 +4,8 @@ This website is designed for a local client as a project for Directed Study in C
 ## To-do:
 
 ### Short-term:
-- [ ] Fix white bar problem on right side of screen
-- [ ] Make contact page more mobile-friendly
+- [x] Fix white bar problem on right side of screen
+- [x] Make contact page more mobile-friendly
 
 ### Long-term: 
 - [ ] Add administrative interface

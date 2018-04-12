@@ -37,7 +37,7 @@
             <div class="card homecard" onclick="location.href = 'services/';">
                 <div class="card-header">
                     <h4>Bar Setups & Services</h4>
-                    <img class="rounded-circle" style="width: 70%;" src="images/samplebar.jpg" alt="Bar Setups & Services">
+                    <img class="rounded-circle" draggable="false" style="width: 70%;" src="images/samplebar.jpg" alt="Bar Setups & Services">
                 </div>
                 <div class="card-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo egestas 
@@ -52,7 +52,7 @@
             <div class="card homecard">
                 <div class="card-header" onclick="location.href = 'contact/';">
                     <h4>Contact Us</h4>
-                    <img class="rounded-circle" style="width: 70%;" src="images/samplecontact.jpeg" alt="Contact Us">
+                    <img class="rounded-circle" draggable="false" style="width: 70%;" src="images/samplecontact.jpeg" alt="Contact Us">
                 </div>
                 <div class="card-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo egestas 
@@ -67,7 +67,7 @@
             <div class="card homecard">
                 <div class="card-header" onclick="location.href = 'about/';">
                     <h4>About Us</h4>
-                    <img class="rounded-circle" style="width: 70%;" src="images/sampleabout.jpeg" alt="About Us">
+                    <img class="rounded-circle" draggable="false" style="width: 70%;" src="images/sampleabout.jpeg" alt="About Us">
                 </div>
                 <div class="card-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo egestas 

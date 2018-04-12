@@ -8,7 +8,7 @@
 
 <?php include("../incl/nav.php"); ?>
 
-    <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center">
+    <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="padding-right: 15px; padding-left: 15px;">
         <div class="row">
             <div class="col-12 h3">About Us</div>
         </div>
@@ -17,7 +17,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <img class="float-left" style="width: 40%; margin-right: 4%; margin-bottom: 2%;" src="../images/sampleoutside.jpeg">
+                <div class="float-left" style="width: 40%; margin-right: 4%; margin-bottom: 2%;">
+                    <img class="rounded" style="width: 100%" src="../images/sampleoutside.jpeg">
+                </div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat ipsum posuere dui viverra suscipit. Maecenas vitae sagittis 
                 velit. Quisque sed condimentum magna. Suspendisse sagittis nec libero et venenatis. Ut eget bibendum turpis, quis volutpat velit. 
                 Donec tempus magna sed risus dignissim, ac viverra sem dapibus. Vestibulum laoreet tristique ligula id pulvinar. Cras accumsan 

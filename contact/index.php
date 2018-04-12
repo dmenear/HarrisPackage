@@ -7,8 +7,7 @@
 <body>
 
 <?php include("../incl/nav.php"); ?>
-
-    <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center">
+    <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="padding-right: 15px; padding-left: 15px;">
         <div class="row">
             <div class="col-12 h3">Contact Us</div>
         </div>
@@ -16,10 +15,12 @@
     
     <div class="container">    
         <div class="row" style="margin-bottom: 5%;">
-            <div class="col-8">
-                <iframe style="width: 100%; height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.3709751850074!2d-81.9511231487428!3d32.38241588100026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fa6bf75b10c2ab%3A0x3a51631e486b785d!2sRay&#39;s+Place+Package+Shop%2C+Drive-Thru%2C+%26+Lounge!5e0!3m2!1sen!2sus!4v1521437107428" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-md-8 col-sm-12">
+                <div style="width: 100%; padding-top: 70%; position: relative; margin-bottom: 5%;">
+                    <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; bottom: 0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.3709751850074!2d-81.9511231487428!3d32.38241588100026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fa6bf75b10c2ab%3A0x3a51631e486b785d!2sRay&#39;s+Place+Package+Shop%2C+Drive-Thru%2C+%26+Lounge!5e0!3m2!1sen!2sus!4v1521437107428" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
                 <strong>Address:</strong><br>
                 1234 Nothing St.<br>
                 Metter, GA 12345
