@@ -4,27 +4,27 @@ It is an informational website for a liquor store. The client and professor over
 this project is Dr. Jim Harris.
 
 ## Requirements
-**Create the following pages:**  
+***Create the following pages:***  
   
-*Home Page*  
-- [x] Website greeting
-- [x] Links to important pages
-- [ ] Headliner deal
+- [ ] **Home Page**  
+    - [x] Website greeting
+    - [x] Links to important pages
+    - [ ] Headliner deal
   
-*Current Deals*
-- [ ] List of current deals
+- [ ] **Current Deals**
+    - [ ] List of current deals
   
-*Products Page*
-- [ ] Display popular items by default
-- [ ] Search functionality for product prices
-    - [ ] Sort by general type (Beer, Wine, Liquor)
-        - [ ] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
-    - [ ] Implement pagination
+- [ ] **Products Page**
+    - [ ] Display popular items by default
+    - [ ] Search functionality for product prices
+        - [ ] Sort by general type (Beer, Wine, Liquor)
+            - [ ] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
+        - [ ] Implement pagination
   
-*About Page*
-- [x] Give company background
+- [x] **About Page**
+    - [x] Give company background
   
-*Contact Page*
-- [x] Display address/embed google map
-- [x] Display business hours/contact information
-- [x] Create user-friendly email form
+- [x] **Contact Page**
+    - [x] Display address/embed google map
+    - [x] Display business hours/contact information
+    - [x] Create user-friendly email form
