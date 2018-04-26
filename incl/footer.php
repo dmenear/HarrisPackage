@@ -16,7 +16,6 @@
             <div class="col-3"></div>
         </div>
         <br><hr>
-        This website was created by David Menear for Catered Cocktails of GA.<br><br>
-        <a href="#">Privacy Policy</a>
+        This website was created by David Menear for Dr. Jim Harris.<br>
     </div>
 </footer>

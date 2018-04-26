@@ -10,7 +10,7 @@
 
 <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="background: url('images/sample.png') center; background-size: cover; padding-right: 15px; padding-left: 15px;">
     <div class="row">
-        <div class="col-12 h3">Welcome to Catered Cocktails of Georgia!</div>
+        <div class="col-12 h3">Welcome to Harris Package!</div>
     </div>
     <div class="row">
         <div class="col-2"></div>
@@ -20,12 +20,9 @@
     <div class="row">
         <div class="col-md-2 col-sm-1"></div>
         <div class="col-md-8 col-sm-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at mattis nunc. 
-            Praesent vehicula ante ac pretium convallis. Morbi hendrerit sem eget nisl interdum, 
-            ullamcorper bibendum lectus vestibulum. Vivamus lacinia rhoncus ipsum, non tincidunt 
-            erat posuere ac. Aenean at sodales nisl, at consectetur diam. Aliquam mattis placerat 
-            tortor a venenatis. Mauris consequat non ligula eu posuere. Suspendisse dictum lectus 
-            nec orci fermentum facilisis.
+            Established in 2020, we are the largest liquor store in Statesboro to date. We offer a wide selection of
+            adult beverages at the best prices in town. We proudly offer a 10% discount to all Georgia Southern
+            students with a valid Student ID. Come in and see what all the excitement is about!
         </div>
         <div class="col-md-2 col-sm-1"></div>
     </div>
