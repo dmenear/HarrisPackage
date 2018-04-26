@@ -22,6 +22,12 @@
         if (filterCategory != "") {
             resultsString = resultsString + "&c=" + filterCategory;
         }
+        if (filterType != "") {
+            resultsString = resultsString + "&t=" + filterType;
+        }
+        if (filterSize != "") {
+            resultsString = resultsString + "&s=" + filterSize;
+        }
         xmlhttp.open("GET", resultsString, true);
         xmlhttp.send();
     }
@@ -32,13 +38,23 @@
         } else{
             filterCategory = category;
         }
+        filterType = "";
+        filterSize = "";
     }
-    
+
     function updateType(catType){
         if(catType == "Show All"){
             filterType = "";
         } else{
             filterType = catType;
+        }
+    }
+
+    function updateSize(size){
+        if(size == "Show All"){
+            filterSize = "";
+        } else{
+            filterSize = size;
         }
     }
 
@@ -50,6 +66,18 @@
             }
         };
         var resultsString = "gettypes.php?c="+category;
+        xmlhttp.open("GET", resultsString, true);
+        xmlhttp.send();
+    }
+
+    function updateSizes(category){
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("sizes").innerHTML = this.responseText;
+            }
+        };
+        var resultsString = "getsizes.php?c="+category;
         xmlhttp.open("GET", resultsString, true);
         xmlhttp.send();
     }
@@ -110,7 +138,7 @@
                 <div class="form-group row">
                     <label class="text-right col-lg-1 col-3 col-form-label" for="categorySelect">Category:</label>
                     <div class="col-lg-3 col-9">
-                        <select class="form-control" id="categorySelect" onchange="updateCategory(this.value); updateTypes(this.value); quickFind(document.getElementById('quickfind').value);">
+                        <select class="form-control" id="categorySelect" onchange="updateCategory(this.value); updateTypes(this.value); updateSizes(this.value); quickFind(document.getElementById('quickfind').value);">
                             <option>Show All</option>
                             <option>Liquor</option>
                             <option>Beer</option>
@@ -120,14 +148,14 @@
                     </div>
                     <label class="text-right col-lg-1 col-3 col-form-label" for="typeSelect">Type:</label>
                     <div id="types" class="col-lg-3 col-9">
-                        <select class="form-control" id="typeSelect">
+                        <select class="form-control" id="typeSelect" onchange="updateType(this.value); quickFind(document.getElementById('quickfind').value);">
                             <option>Show All</option>
                         </select>
                         <br>
                     </div>
                     <label class="text-right col-lg-1 col-3 col-form-label" for="sizeSelect">Size:</label>
-                    <div class="col-lg-3 col-9">
-                        <select class="form-control" id="sizeSelect">
+                    <div id="sizes" class="col-lg-3 col-9">
+                        <select class="form-control" id="sizeSelect" onchange="updateSize(this.value); quickFind(document.getElementById('quickfind').value);">
                             <option>Show All</option>
                         </select>
                         <br>

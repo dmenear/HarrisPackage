@@ -11,7 +11,15 @@
     $sql_get_products = 'SELECT * FROM PRODUCTS';
     if(isset($_GET['c'])){
         $cat = $_GET['c'];
-        $sql_get_products .= " WHERE Category='$cat'";
+        $sql_get_products .= " WHERE category='$cat'";
+        if(isset($_GET['t'])){
+            $type = $_GET['t'];
+            $sql_get_products .= " AND category_type='$type'";
+        }
+        if(isset($_GET['s'])){
+            $size = $_GET['s'];
+            $sql_get_products .= " AND product_size='$size'";
+        }
     }
     $sql_get_products .= ' ORDER BY product_name;';
     $rows = $db->query($sql_get_products);

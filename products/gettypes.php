@@ -1,4 +1,4 @@
-<select class="form-control" id="typeSelect">
+<select class="form-control" id="typeSelect" onchange="updateType(this.value); quickFind(document.getElementById('quickfind').value);">
     <option>Show All</option>
 <?php
     if(isset($_GET['c'])){
