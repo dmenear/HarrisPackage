@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/raysplace.iml" filepath="$PROJECT_DIR$/.idea/raysplace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HarrisPackage.iml" filepath="$PROJECT_DIR$/.idea/HarrisPackage.iml" />
     </modules>
   </component>
 </project>
