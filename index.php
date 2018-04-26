@@ -34,7 +34,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 text-center">
-            <div class="card homecard" onclick="location.href = 'services/';">
+            <div class="card homecard" onclick="location.href = 'deals/';">
                 <div class="card-header">
                     <h4>Bar Setups & Services</h4>
                     <img class="rounded-circle" draggable="false" style="width: 70%;" src="images/samplebar.jpg" alt="Bar Setups & Services">

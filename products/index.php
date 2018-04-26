@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html lang="en">
 <?php
-    $pageID = "faq";
+    $pageID = "products";
     include("../incl/head.php");
 ?>
 <body>
