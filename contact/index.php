@@ -1,17 +1,49 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <?php
     $pageID = "contact";
     include("../incl/head.php");
 ?>
 <body>
-
 <?php include("../incl/nav.php"); ?>
     <div id="pageHeader" class="jumbotron jumbotron-fluid container-fluid text-center" style="padding-right: 15px; padding-left: 15px;">
         <div class="row">
             <div class="col-12 h3">Contact Us</div>
         </div>
     </div>
+
+    <?php
+    if(isset($_POST['sendEmail'])){
+        if($_POST['name'] == "" || $_POST['messageBody'] == "" || $_POST['returnAddress'] == ""){
+            echo '<center><div style="width: 50%; margin-bottom: 2%;" class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Message did not send!</strong> Please make sure to fill out all fields when sending an email.
+                    </div></center>';
+        } else {
+            $to = "jim@harrispackage.com";
+            $subject = "Harris Package - Message from " . $_POST['name'];
+            $txt = $_POST['messageBody'];
+            $headers = "From: " . $_POST['returnAddress'] . "\r\n";
+            if(mail($to, $subject, $txt, $headers)){
+                echo '<center><div style="width: 50%; margin-bottom: 2%;" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    Your message was sent successfully!
+                    </div></center>';
+            } else{
+                echo '<center><div style="width: 50%; margin-bottom: 2%;" class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Message did not send!</strong> There seems to be a problem with the mail server.
+                    </div></center>';
+            }
+        }
+    }
+    ?>
     
     <div class="container">    
         <div class="row" style="margin-bottom: 5%;">
@@ -64,21 +96,21 @@
                         Send us an email!
                     </div>
                     <div class="card-body">
-                        <form>
+                        <form method="POST" name="emailForm">
                             <div class="form-group">
                                 <label for="contactEmail">Your email address:</label>
-                                <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp">
+                                <input name="returnAddress" type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="contactName">Your name:</label>
-                                <input type="text" class="form-control" id="contactName">
+                                <input name="name" type="text" class="form-control" id="contactName">
                             </div>
                             <div class="form-group">
                                 <label for="contactMessage">Your Message:</label>
-                                <textarea class="form-control" id="contactMessage" rows="6"></textarea>
+                                <textarea name="messageBody" class="form-control" id="contactMessage" rows="6"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button name="sendEmail" type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
                 </div>

@@ -18,11 +18,12 @@ this project is Dr. Jim Harris.
     - [x] Search functionality for product prices
         - [x] Sort by general type (Beer, Wine, Liquor)
             - [x] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
+    - [ ] Add more products
   
 - [x] **About Page**
     - [x] Give company background
   
-- [ ] **Contact Page**
+- [x] **Contact Page**
     - [x] Display address/embed google map
     - [x] Display business hours/contact information
-    - [ ] Create user-friendly email form
+    - [x] Create user-friendly email form
