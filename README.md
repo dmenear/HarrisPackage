@@ -18,7 +18,7 @@ this project is Dr. Jim Harris.
     - [x] Search functionality for product prices
         - [x] Sort by general type (Beer, Wine, Liquor)
             - [x] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
-    - [ ] Add more products
+    - [x] Add more products
   
 - [x] **About Page**
     - [x] Give company background
