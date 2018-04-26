@@ -1,12 +1,30 @@
-# Catered Cocktails of Georgia Website
-This website is designed for a local client as a project for Directed Study in Computer Science at Georgia Southern University. The idea is to make a simple website for a mobile bartending and drink catering business that the client is starting. The current design plan consists of 5 standard informational pages alongside an interface that the client may use to modify the content.
+# Harris Package Website
+This website was designed for Directed Study in CS at Georgia Southern University. 
+It is an informational website for a liquor store. The client and professor overseeing 
+this project is Dr. Jim Harris.
 
-## To-do:
-
-### Short-term:
-- [x] Fix white bar problem on right side of screen
-- [x] Make contact page more mobile-friendly
-
-### Long-term: 
-- [ ] Add administrative interface
-- [ ] Obtain and incorporate website content from client
+## Requirements
+**Create the following pages:**  
+  
+*Home Page*  
+- [x] Website greeting
+- [x] Links to important pages
+- [ ] Headliner deal
+  
+*Current Deals*
+- [ ] List of current deals
+  
+*Products Page*
+- [ ] Display popular items by default
+- [ ] Search functionality for product prices
+    - [ ] Sort by general type (Beer, Wine, Liquor)
+        - [ ] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
+    - [ ] Implement pagination
+  
+*About Page*
+- [x] Give company background
+  
+*Contact Page*
+- [x] Display address/embed google map
+- [x] Display business hours/contact information
+- [x] Create user-friendly email form
