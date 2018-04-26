@@ -16,6 +16,10 @@ body{
     border-top-right-radius: 0;
 }
 
+.featuredDeal:hover{
+    cursor:pointer;
+}
+
 .homecard{
     margin-bottom: 2%;
 }

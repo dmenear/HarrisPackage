@@ -29,7 +29,7 @@
 </div>
 
 <div class="container">
-    <div class="jumbotron text-center" style="background: #fcff7c !important">
+    <div class="jumbotron text-center featuredDeal" style="background: #fcff7c !important" onclick="location.href = 'deals/';">
         <h2>Get two handles of Jack Daniel's Old No. 7 Whiskey for $55.00!</h2>
         <hr>
         <p>Come in anytime between 12:00pm and 5:00pm on a weekday to take advantage of this amazing deal!</p>

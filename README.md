@@ -11,8 +11,8 @@ this project is Dr. Jim Harris.
     - [x] Links to important pages
     - [x] Headliner deal
   
-- [ ] **Current Deals**
-    - [ ] List of current deals
+- [x] **Current Deals**
+    - [x] List of current deals
   
 - [ ] **Products Page**
     - [ ] Display popular items by default
@@ -24,7 +24,7 @@ this project is Dr. Jim Harris.
 - [x] **About Page**
     - [x] Give company background
   
-- [x] **Contact Page**
+- [ ] **Contact Page**
     - [x] Display address/embed google map
     - [x] Display business hours/contact information
-    - [x] Create user-friendly email form
+    - [ ] Create user-friendly email form
