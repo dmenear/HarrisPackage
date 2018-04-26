@@ -5,13 +5,13 @@
         <div class="row text-center">
             <div class="col-3"></div>
             <div class="col-2">
-                <a href="http://www.facebook.com"><img src="<?php echo $linkPrefix; ?>images/fb.png" height="50" alt="Facebook"></a>
+                <a href="http://www.facebook.com/HarrisPackage"><img src="<?php echo $linkPrefix; ?>images/fb.png" height="50" alt="Facebook"></a>
             </div>
             <div class="col-2">
-                <a href="http://www.twitter.com"><img src="<?php echo $linkPrefix; ?>images/tw.png" height="50" alt="Twitter"></a>
+                <a href="http://www.twitter.com/HarrisPackage"><img src="<?php echo $linkPrefix; ?>images/tw.png" height="50" alt="Twitter"></a>
             </div>
             <div class="col-2">
-                <a href="http://www.instagram.com"><img src="<?php echo $linkPrefix; ?>images/in.png" height="50" alt="Instagram"></a>
+                <a href="http://www.instagram.com/HarrisPackage"><img src="<?php echo $linkPrefix; ?>images/in.png" height="50" alt="Instagram"></a>
             </div>
             <div class="col-3"></div>
         </div>

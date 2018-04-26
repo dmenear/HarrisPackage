@@ -36,7 +36,7 @@
                 
                 <table class="table">
                     <tr>
-                        <th class="text-center" scope="col" colspan="2">Available Hours</th>
+                        <th class="text-center" scope="col" colspan="2">Business Hours</th>
                     </tr>
                     <tr>
                         <th scope="row">Mon - Thu</th>

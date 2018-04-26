@@ -6,10 +6,10 @@ this project is Dr. Jim Harris.
 ## Requirements
 ***Create the following pages:***  
   
-- [ ] **Home Page**  
+- [x] **Home Page**  
     - [x] Website greeting
     - [x] Links to important pages
-    - [ ] Headliner deal
+    - [x] Headliner deal
   
 - [ ] **Current Deals**
     - [ ] List of current deals
