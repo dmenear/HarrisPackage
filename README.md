@@ -14,12 +14,10 @@ this project is Dr. Jim Harris.
 - [x] **Current Deals**
     - [x] List of current deals
   
-- [ ] **Products Page**
-    - [ ] Display popular items by default
-    - [ ] Search functionality for product prices
-        - [ ] Sort by general type (Beer, Wine, Liquor)
-            - [ ] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
-        - [ ] Implement pagination
+- [x] **Products Page**
+    - [x] Search functionality for product prices
+        - [x] Sort by general type (Beer, Wine, Liquor)
+            - [x] Sort by specific type (Red/white wines, IPAs, Vodka, etc.)
   
 - [x] **About Page**
     - [x] Give company background
